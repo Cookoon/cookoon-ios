@@ -17,7 +17,7 @@ class ViewController: UIViewController, UIWebViewDelegate {
         
         self.navigationController?.isNavigationBarHidden = true
         
-        // webView.loadRequest(URLRequest(url: URL(string: "https://cookoon.herokuapp.com")!))
+//         webView.loadRequest(URLRequest(url: URL(string: "https://cookoon.herokuapp.com/")!))
         webView.loadRequest(URLRequest(url: URL(string: "http://localhost:3000")!))
         webView.scalesPageToFit = true
         webView.delegate = self
