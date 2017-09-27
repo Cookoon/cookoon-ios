@@ -12,17 +12,7 @@ class ViewController: UIViewController, UIWebViewDelegate {
     
     var webView = UIWebView(frame: CGRect(x: 0, y: 0, width: Int(UIScreen.main.bounds.width), height: Int(UIScreen.main.bounds.height)))
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        self.navigationController?.isNavigationBarHidden = true
-        
-//         webView.loadRequest(URLRequest(url: URL(string: "https://cookoon.herokuapp.com/")!))
-        webView.loadRequest(URLRequest(url: URL(string: "http://localhost:3000")!))
-        webView.scalesPageToFit = true
-        webView.delegate = self
-    }
-    
+
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         

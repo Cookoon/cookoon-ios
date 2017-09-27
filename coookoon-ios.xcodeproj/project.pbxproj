@@ -13,6 +13,7 @@
 		0FCD25451F6A681E002055D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FCD25431F6A681E002055D3 /* Main.storyboard */; };
 		0FCD25471F6A681E002055D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FCD25461F6A681E002055D3 /* Assets.xcassets */; };
 		0FCD25521F6A6934002055D3 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCD25511F6A6934002055D3 /* Reachability.swift */; };
+		FC18EA59AFF3E0D284515947 /* Pods_coookoon_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6CC9211D1D4F885BCF6124E /* Pods_coookoon_ios.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,9 @@
 		0FCD25461F6A681E002055D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0FCD254B1F6A681E002055D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0FCD25511F6A6934002055D3 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		B67263A35F5478F8DBE1BEF7 /* Pods-coookoon-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coookoon-ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-coookoon-ios/Pods-coookoon-ios.release.xcconfig"; sourceTree = "<group>"; };
+		C6CC9211D1D4F885BCF6124E /* Pods_coookoon_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_coookoon_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E631C180A2DAE11B54033835 /* Pods-coookoon-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coookoon-ios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-coookoon-ios/Pods-coookoon-ios.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC18EA59AFF3E0D284515947 /* Pods_coookoon_ios.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +47,8 @@
 			children = (
 				0FCD253E1F6A681E002055D3 /* coookoon-ios */,
 				0FCD253D1F6A681E002055D3 /* Products */,
+				CE76768AD4199FFD49AA9D85 /* Pods */,
+				D37B850ECAA1D61B83CC372F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +74,23 @@
 			path = "coookoon-ios";
 			sourceTree = "<group>";
 		};
+		CE76768AD4199FFD49AA9D85 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E631C180A2DAE11B54033835 /* Pods-coookoon-ios.debug.xcconfig */,
+				B67263A35F5478F8DBE1BEF7 /* Pods-coookoon-ios.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D37B850ECAA1D61B83CC372F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C6CC9211D1D4F885BCF6124E /* Pods_coookoon_ios.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0FCD254E1F6A681E002055D3 /* Build configuration list for PBXNativeTarget "coookoon-ios" */;
 			buildPhases = (
+				7469E971DB3CE8A68C9D6ED2 /* [CP] Check Pods Manifest.lock */,
 				0FCD25381F6A681E002055D3 /* Sources */,
 				0FCD25391F6A681E002055D3 /* Frameworks */,
 				0FCD253A1F6A681E002055D3 /* Resources */,
+				7152AC125F8F8AF668F74E4F /* [CP] Embed Pods Frameworks */,
+				E3BA751891594EED3E808CE1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -133,6 +160,60 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7152AC125F8F8AF668F74E4F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-coookoon-ios/Pods-coookoon-ios-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Turbolinks/Turbolinks.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Turbolinks.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-coookoon-ios/Pods-coookoon-ios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7469E971DB3CE8A68C9D6ED2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-coookoon-ios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3BA751891594EED3E808CE1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-coookoon-ios/Pods-coookoon-ios-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0FCD25381F6A681E002055D3 /* Sources */ = {
@@ -254,6 +335,7 @@
 		};
 		0FCD254F1F6A681E002055D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E631C180A2DAE11B54033835 /* Pods-coookoon-ios.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "coookoon-ios/Info.plist";
@@ -266,6 +348,7 @@
 		};
 		0FCD25501F6A681E002055D3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B67263A35F5478F8DBE1BEF7 /* Pods-coookoon-ios.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "coookoon-ios/Info.plist";
