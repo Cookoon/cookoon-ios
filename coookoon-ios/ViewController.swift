@@ -45,16 +45,6 @@ class ViewController: UIViewController, UIWebViewDelegate {
             }
         }
         
-//        if navigationType == UIWebViewNavigationType.linkClicked {
-//            // Link outside app, open in native browser
-//            if request.url!.host != "cookoon.herokuapp.com" {
-//                UIApplication.shared.open(request.url!, options: [:], completionHandler: nil)
-//                return false
-//            }
-//            
-//            // TODO: Native social apps (TWTR/FB/LI)
-//        }
-        
         return true
     }
     
