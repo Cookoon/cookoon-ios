@@ -1,0 +1,6 @@
+framework module Pods_coookoon_ios {
+  umbrella header "Pods-coookoon-ios-umbrella.h"
+
+  export *
+  module * { export * }
+}

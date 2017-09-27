@@ -7,16 +7,28 @@
 //
 
 import UIKit
+import Turbolinks
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
+    
     var window: UIWindow?
-
-
+    var navigationController = UINavigationController()
+    var session = Session()
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        navigationController.isNavigationBarHidden = true
+        window?.rootViewController = navigationController
+        session.delegate = self
+        visit(url: URL(string: "http://localhost:3000")!)
         return true
+    }
+    
+    func visit(url: URL) {
+        let viewController = VisitableViewController(url: url)
+        navigationController.pushViewController(viewController, animated: true)
+        session.visit(viewController)
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
@@ -41,6 +53,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
-
 }
+
+extension AppDelegate: SessionDelegate {
+    func session(_ session: Session, didProposeVisitToURL URL: URL, withAction action: Action) {
+        visit(url: URL)
+    }
+    
+    func session(_ session: Session, didFailRequestForVisitable visitable: Visitable, withError error: NSError) {
+        //        TODO:
+    }
+}
+
 
