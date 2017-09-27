@@ -18,6 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        navigationController.isNavigationBarHidden = true
         window?.rootViewController = navigationController
         session.delegate = self
         visit(url: URL(string: "http://localhost:3000")!)

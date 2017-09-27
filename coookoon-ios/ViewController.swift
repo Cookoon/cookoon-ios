@@ -8,57 +8,16 @@
 
 import UIKit
 
-class ViewController: UIViewController, UIWebViewDelegate {
+class ViewController: UIViewController {
     
-    var webView = UIWebView(frame: CGRect(x: 0, y: 0, width: Int(UIScreen.main.bounds.width), height: Int(UIScreen.main.bounds.height)))
-    
-
-    override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(animated)
-        
-        if !Reachability.isConnectedToNetwork() {
-            webView.stopLoading()
-            showError("No Internet Connection", "Make sure your device is connected to the internet.")
-        }
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view, typically from a nib.
     }
     
-    override var prefersStatusBarHidden: Bool {
-        return true
-    }
-    
-    // UIWebViewDelegate Implementation
-    func webViewDidFinishLoad(_ webView: UIWebView) {
-        self.view.addSubview(webView)
-    }
-    
-    func webView(_ webView: UIWebView, didFailLoadWithError: Error) {
-        showError("An error occurred", didFailLoadWithError.localizedDescription)
-    }
-    
-    func webView(_ webView: UIWebView, shouldStartLoadWith request: URLRequest, navigationType: UIWebViewNavigationType) -> Bool {
-        
-        // mailto or tel
-        if navigationType == UIWebViewNavigationType.other {
-            if ["mailto", "tel"].contains(request.url!.scheme!) {
-                UIApplication.shared.open(request.url!, options: [:], completionHandler: nil)
-                return false
-            }
-        }
-        
-        return true
-    }
-    
-    
-    // Error Helper
-    func showError(_ title: String, _ message: String) {
-        let alertController = UIAlertController(title: title, message: message, preferredStyle: UIAlertControllerStyle.alert)
-        let okAction = UIAlertAction(title: "OK", style: UIAlertActionStyle.destructive) {
-            (result : UIAlertAction) -> Void in
-            exit(0)
-        }
-        
-        alertController.addAction(okAction)
-        self.present(alertController, animated: true, completion: nil)
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
     }
     
 }
