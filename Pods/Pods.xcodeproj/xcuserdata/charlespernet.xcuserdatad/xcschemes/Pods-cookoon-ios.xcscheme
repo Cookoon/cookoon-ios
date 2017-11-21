@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "59C287541AAC8C484E73DCB169DDC8FB"
-               BuildableName = "Pods_coookoon_ios.framework"
-               BlueprintName = "Pods-coookoon-ios"
+               BlueprintIdentifier = "19D04C52373EF40BEA9F58A61CE726F0"
+               BuildableName = "Pods_cookoon_ios.framework"
+               BlueprintName = "Pods-cookoon-ios"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -26,6 +26,7 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      language = ""
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
@@ -36,6 +37,7 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      language = ""
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
@@ -45,9 +47,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "59C287541AAC8C484E73DCB169DDC8FB"
-            BuildableName = "Pods_coookoon_ios.framework"
-            BlueprintName = "Pods-coookoon-ios"
+            BlueprintIdentifier = "19D04C52373EF40BEA9F58A61CE726F0"
+            BuildableName = "Pods_cookoon_ios.framework"
+            BlueprintName = "Pods-cookoon-ios"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

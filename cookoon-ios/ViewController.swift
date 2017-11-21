@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  coookoon-ios
+//  cookoon-ios
 //
 //  Created by Charles PERNET on 14/09/2017.
 //  Copyright © 2017 Charles PERNET. All rights reserved.
