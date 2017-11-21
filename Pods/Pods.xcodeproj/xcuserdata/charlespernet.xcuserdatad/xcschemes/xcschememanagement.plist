@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Pods-coookoon-ios.xcscheme</key>
+		<key>Pods-cookoon-ios.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -16,17 +16,6 @@
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
-	<dict>
-		<key>3C11952D2E8A2563E7E49C49CD8BA62A</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>59C287541AAC8C484E73DCB169DDC8FB</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-	</dict>
+	<dict/>
 </dict>
 </plist>

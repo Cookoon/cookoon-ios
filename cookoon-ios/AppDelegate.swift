@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  coookoon-ios
+//  cookoon-ios
 //
 //  Created by Charles PERNET on 14/09/2017.
 //  Copyright © 2017 Charles PERNET. All rights reserved.
@@ -22,8 +22,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.rootViewController = navigationController
         session.delegate = self
 //        visit(url: URL(string: "https://cookoon-staging.herokuapp.com")!)
-        visit(url: URL(string: "https://app.cookoon.fr")!)
-//        visit(url: URL(string: "http://localhost:3000")!)
+//        visit(url: URL(string: "https://app.cookoon.fr")!)
+        visit(url: URL(string: "http://localhost:3000")!)
         return true
     }
     
