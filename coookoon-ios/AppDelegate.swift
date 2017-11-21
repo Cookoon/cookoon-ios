@@ -21,8 +21,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         navigationController.isNavigationBarHidden = true
         window?.rootViewController = navigationController
         session.delegate = self
-        visit(url: URL(string: "https://cookoon-staging.herokuapp.com")!)
-//        visit(url: URL(string: "https://app.cookoon.fr")!)
+//        visit(url: URL(string: "https://cookoon-staging.herokuapp.com")!)
+        visit(url: URL(string: "https://app.cookoon.fr")!)
+//        visit(url: URL(string: "http://localhost:3000")!)
         return true
     }
     
@@ -54,7 +55,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
     
-    @nonobjc func application(application: UIApplication, continueUserActivity userActivity: NSUserActivity, restorationHandler: @escaping ([AnyObject]?) -> Void) -> Bool {
+    func application(_ application: UIApplication, continue userActivity: NSUserActivity,
+                     restorationHandler: @escaping ([Any]?) -> Void) -> Bool {
         if userActivity.activityType == NSUserActivityTypeBrowsingWeb {
             let url = userActivity.webpageURL!
             visit(url: url);
