@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		1285FF9623BA311F4D6711210FD1865D /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777FB83280F5CB117DF5A45C46047A18 /* Error.swift */; };
-		3AB9125A44CF9228EC89E55D21F02C28 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 596A5E7C40FB07FDAA78D426185FA95B /* Foundation.framework */; };
 		4083F82A593170F27F12DD461EDBDCF4 /* Visitable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8D75A6BB7D33AE93EE8490558BDBAD /* Visitable.swift */; };
 		4616C3C7420BEFE4170CB11B0FAABB5F /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3230582930099BCF195FBF9D37D19305 /* WebView.swift */; };
 		4C53DE0A6CD99BEA4D2B75D14BEE3E48 /* Turbolinks-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5695AB8BB4D9A6CD230FD28BCF664E /* Turbolinks-dummy.m */; };
@@ -22,8 +21,6 @@
 		B48580101BA1563089E007916A94DA9A /* Pods-cookoon-ios-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E6871F2D9F880E5A178C502174003C97 /* Pods-cookoon-ios-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DEB1196735369976037A21EBD739EF60 /* WebView.js in Resources */ = {isa = PBXBuildFile; fileRef = F73696591DF4A0121FE93882475CAC1F /* WebView.js */; };
 		E302B3C99C15AD99C9B9959AD17C6400 /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFD5A3FAE242A1F92FD51DE6B101BB9 /* Action.swift */; };
-		E33DFF35D7C061DCC8988FEC9043ED62 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDDB8272AF7DA52CED82F42852514AD3 /* WebKit.framework */; };
-		F64C5D8508B4301BB050F97760D37DB4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 596A5E7C40FB07FDAA78D426185FA95B /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,16 +40,15 @@
 		3230582930099BCF195FBF9D37D19305 /* WebView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebView.swift; path = Turbolinks/WebView.swift; sourceTree = "<group>"; };
 		3C0BCD9C61241CB03B12470A6F0AB0A2 /* Pods-cookoon-ios-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-cookoon-ios-resources.sh"; sourceTree = "<group>"; };
 		5080EE62127E017DF4DBE560921938D9 /* Visit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Visit.swift; path = Turbolinks/Visit.swift; sourceTree = "<group>"; };
-		58B07BF640CB418CBDA2F872BDC01CBB /* Pods_cookoon_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_cookoon_ios.framework; path = "Pods-cookoon-ios.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		596A5E7C40FB07FDAA78D426185FA95B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		65ABFC52A7031CDB7B2CED5F724F0003 /* Pods-cookoon-ios.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-cookoon-ios.modulemap"; sourceTree = "<group>"; };
+		58B07BF640CB418CBDA2F872BDC01CBB /* Pods_cookoon_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cookoon_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65ABFC52A7031CDB7B2CED5F724F0003 /* Pods-cookoon-ios.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-cookoon-ios.modulemap"; sourceTree = "<group>"; };
 		72C328A0D212DF1A0410F39B721AF085 /* Turbolinks.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Turbolinks.xcconfig; sourceTree = "<group>"; };
 		777FB83280F5CB117DF5A45C46047A18 /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Turbolinks/Error.swift; sourceTree = "<group>"; };
 		7B63E1144CD5CF6C868BFBBAACD493AD /* Pods-cookoon-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-cookoon-ios.debug.xcconfig"; sourceTree = "<group>"; };
 		831BC24325654C3C21896D26AC38E537 /* ScriptMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScriptMessage.swift; path = Turbolinks/ScriptMessage.swift; sourceTree = "<group>"; };
 		8759FAE6D0EA5FB809981916A19E2D9E /* Pods-cookoon-ios-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-cookoon-ios-acknowledgements.plist"; sourceTree = "<group>"; };
 		9228FCDB08C8F9C4CA80A794A959712E /* Pods-cookoon-ios-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-cookoon-ios-frameworks.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A359E20EB9CE17874163BF35AEDF6F32 /* VisitableViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VisitableViewController.swift; path = Turbolinks/VisitableViewController.swift; sourceTree = "<group>"; };
 		A3B3223F16FE19F47ECBBF4B963E6723 /* Pods-cookoon-ios-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-cookoon-ios-dummy.m"; sourceTree = "<group>"; };
 		AA365A2626DC76ED5E878CBCDEDC6AB8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -61,13 +57,12 @@
 		CC1FE439460A74661D4BBFBFA27346B0 /* Pods-cookoon-ios-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-cookoon-ios-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D2A721BC1E10FDB1A477F048A5727A44 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E6871F2D9F880E5A178C502174003C97 /* Pods-cookoon-ios-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-cookoon-ios-umbrella.h"; sourceTree = "<group>"; };
-		E6BD63308612F423726A74D80B0BAF67 /* Turbolinks.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Turbolinks.modulemap; sourceTree = "<group>"; };
+		E6BD63308612F423726A74D80B0BAF67 /* Turbolinks.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Turbolinks.modulemap; sourceTree = "<group>"; };
 		E8487F7366FA43E1E37E4CE29FE8A3A5 /* Pods-cookoon-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-cookoon-ios.release.xcconfig"; sourceTree = "<group>"; };
-		E89B3C61C5F33AFBD2EC04794647D7AD /* Turbolinks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Turbolinks.framework; path = Turbolinks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E89B3C61C5F33AFBD2EC04794647D7AD /* Turbolinks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Turbolinks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA8D75A6BB7D33AE93EE8490558BDBAD /* Visitable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Visitable.swift; path = Turbolinks/Visitable.swift; sourceTree = "<group>"; };
 		EC0F2C18A3B59827CDFD59A71F30AB5F /* Turbolinks-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Turbolinks-umbrella.h"; sourceTree = "<group>"; };
-		EDDB8272AF7DA52CED82F42852514AD3 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
-		F73696591DF4A0121FE93882475CAC1F /* WebView.js */ = {isa = PBXFileReference; includeInIndex = 1; name = WebView.js; path = Turbolinks/WebView.js; sourceTree = "<group>"; };
+		F73696591DF4A0121FE93882475CAC1F /* WebView.js */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.javascript; name = WebView.js; path = Turbolinks/WebView.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,8 +70,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F64C5D8508B4301BB050F97760D37DB4 /* Foundation.framework in Frameworks */,
-				E33DFF35D7C061DCC8988FEC9043ED62 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,7 +77,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3AB9125A44CF9228EC89E55D21F02C28 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,7 +98,6 @@
 				68A5CF8F3DEB5C912169F31DEC7A8B09 /* Resources */,
 				C5975DF54413356263EA4BF97B0D2CBE /* Support Files */,
 			);
-			name = Turbolinks;
 			path = Turbolinks;
 			sourceTree = "<group>";
 		};
@@ -147,8 +138,6 @@
 		729C424472F1E074A2EF30A6BC5F7C43 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				596A5E7C40FB07FDAA78D426185FA95B /* Foundation.framework */,
-				EDDB8272AF7DA52CED82F42852514AD3 /* WebKit.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";

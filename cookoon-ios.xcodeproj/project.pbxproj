@@ -15,7 +15,6 @@
 		0FCD25471F6A681E002055D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FCD25461F6A681E002055D3 /* Assets.xcassets */; };
 		0FCD25521F6A6934002055D3 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCD25511F6A6934002055D3 /* Reachability.swift */; };
 		C216670318A8EB5F4469AC68 /* Pods_cookoon_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B79CF6AB91CCF13FAAA616D6 /* Pods_cookoon_ios.framework */; };
-		FC18EA59AFF3E0D284515947 /* Pods_coookoon_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6CC9211D1D4F885BCF6124E /* Pods_coookoon_ios.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,7 +41,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC18EA59AFF3E0D284515947 /* Pods_coookoon_ios.framework in Frameworks */,
 				C216670318A8EB5F4469AC68 /* Pods_cookoon_ios.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -290,6 +288,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -312,9 +311,12 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_REFLECTION_METADATA_LEVEL = all;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -348,6 +350,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -363,8 +366,11 @@
 				INFOPLIST_FILE = "cookoon-ios/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_REFLECTION_METADATA_LEVEL = all;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
