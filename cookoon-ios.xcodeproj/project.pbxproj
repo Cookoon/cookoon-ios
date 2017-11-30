@@ -14,7 +14,7 @@
 		0FCD25451F6A681E002055D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FCD25431F6A681E002055D3 /* Main.storyboard */; };
 		0FCD25471F6A681E002055D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FCD25461F6A681E002055D3 /* Assets.xcassets */; };
 		0FCD25521F6A6934002055D3 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCD25511F6A6934002055D3 /* Reachability.swift */; };
-		C216670318A8EB5F4469AC68 /* Pods_cookoon_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B79CF6AB91CCF13FAAA616D6 /* Pods_cookoon_ios.framework */; };
+		75688301B275F550BCF922B2 /* Pods_cookoon_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B79CF6AB91CCF13FAAA616D6 /* Pods_cookoon_ios.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,7 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C216670318A8EB5F4469AC68 /* Pods_cookoon_ios.framework in Frameworks */,
+				75688301B275F550BCF922B2 /* Pods_cookoon_ios.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
