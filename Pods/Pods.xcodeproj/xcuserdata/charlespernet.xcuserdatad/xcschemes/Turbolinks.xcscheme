@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'C2B48157F1BA17C7FF04AE02966EB524'
+               BlueprintIdentifier = '2ECF6DBE1D1784B1C9A9027E5E41966E'
                BlueprintName = 'Turbolinks'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Turbolinks.framework'>

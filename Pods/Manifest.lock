@@ -1,5 +1,5 @@
 PODS:
-  - Turbolinks (2.0.0)
+  - Turbolinks (3.0.0)
 
 DEPENDENCIES:
   - Turbolinks (from `https://github.com/turbolinks/turbolinks-ios.git`)
@@ -10,11 +10,11 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   Turbolinks:
-    :commit: 9bd156cd67596c25c5e62f9ae369628b05667c4d
+    :commit: 7959873c82b89b1b88f3a2b36821bba3165b2c5d
     :git: https://github.com/turbolinks/turbolinks-ios.git
 
 SPEC CHECKSUMS:
-  Turbolinks: 3f60819d36350d872b436dc22497a1050c144b95
+  Turbolinks: 4e3a5ce8132e96019236ca7f8f274a0034de2a39
 
 PODFILE CHECKSUM: ed3d4d6a1eaf8ca10cfc3033aff46cb1732dfc5f
 

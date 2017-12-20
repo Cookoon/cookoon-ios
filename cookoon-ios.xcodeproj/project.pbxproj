@@ -14,7 +14,7 @@
 		0FCD25451F6A681E002055D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FCD25431F6A681E002055D3 /* Main.storyboard */; };
 		0FCD25471F6A681E002055D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FCD25461F6A681E002055D3 /* Assets.xcassets */; };
 		0FCD25521F6A6934002055D3 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCD25511F6A6934002055D3 /* Reachability.swift */; };
-		75688301B275F550BCF922B2 /* Pods_cookoon_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B79CF6AB91CCF13FAAA616D6 /* Pods_cookoon_ios.framework */; };
+		B68A28478B9DA6E917909E61 /* Pods_cookoon_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A22558919E05A0D7CF81D86C /* Pods_cookoon_ios.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,11 +29,10 @@
 		0FCD254B1F6A681E002055D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0FCD25511F6A6934002055D3 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 		15E785B59FCD38B9E10F6952 /* Pods-cookoon-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cookoon-ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-cookoon-ios/Pods-cookoon-ios.release.xcconfig"; sourceTree = "<group>"; };
-		B67263A35F5478F8DBE1BEF7 /* Pods-cookoon-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cookoon-ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-coookoon-ios/Pods-cookoon-ios.release.xcconfig"; sourceTree = "<group>"; };
-		B79CF6AB91CCF13FAAA616D6 /* Pods_cookoon_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cookoon_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C6CC9211D1D4F885BCF6124E /* Pods_coookoon_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_coookoon_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E631C180A2DAE11B54033835 /* Pods-cookoon-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cookoon-ios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-coookoon-ios/Pods-cookoon-ios.debug.xcconfig"; sourceTree = "<group>"; };
+		A22558919E05A0D7CF81D86C /* Pods_cookoon_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cookoon_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A970A13873FF50C9C76BF017 /* Pods-cookoon-ios.beta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cookoon-ios.beta.xcconfig"; path = "Pods/Target Support Files/Pods-cookoon-ios/Pods-cookoon-ios.beta.xcconfig"; sourceTree = "<group>"; };
 		EE7DE7789D5D87B255431091 /* Pods-cookoon-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cookoon-ios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-cookoon-ios/Pods-cookoon-ios.debug.xcconfig"; sourceTree = "<group>"; };
+		F46D48C53F1C94B1725874D9 /* Pods-cookoon-ios.app store.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cookoon-ios.app store.xcconfig"; path = "Pods/Target Support Files/Pods-cookoon-ios/Pods-cookoon-ios.app store.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75688301B275F550BCF922B2 /* Pods_cookoon_ios.framework in Frameworks */,
+				B68A28478B9DA6E917909E61 /* Pods_cookoon_ios.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,10 +84,10 @@
 		CE76768AD4199FFD49AA9D85 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E631C180A2DAE11B54033835 /* Pods-cookoon-ios.debug.xcconfig */,
-				B67263A35F5478F8DBE1BEF7 /* Pods-cookoon-ios.release.xcconfig */,
 				EE7DE7789D5D87B255431091 /* Pods-cookoon-ios.debug.xcconfig */,
 				15E785B59FCD38B9E10F6952 /* Pods-cookoon-ios.release.xcconfig */,
+				F46D48C53F1C94B1725874D9 /* Pods-cookoon-ios.app store.xcconfig */,
+				A970A13873FF50C9C76BF017 /* Pods-cookoon-ios.beta.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -96,8 +95,7 @@
 		D37B850ECAA1D61B83CC372F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C6CC9211D1D4F885BCF6124E /* Pods_coookoon_ios.framework */,
-				B79CF6AB91CCF13FAAA616D6 /* Pods_cookoon_ios.framework */,
+				A22558919E05A0D7CF81D86C /* Pods_cookoon_ios.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -115,6 +113,7 @@
 				0FCD253A1F6A681E002055D3 /* Resources */,
 				7152AC125F8F8AF668F74E4F /* [CP] Embed Pods Frameworks */,
 				E3BA751891594EED3E808CE1 /* [CP] Copy Pods Resources */,
+				0FE9DE941FEA6AB70026D8BB /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -181,6 +180,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0FE9DE941FEA6AB70026D8BB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "FILE=\"${SRCROOT}/HockeySDK-iOS/BuildAgent\"\nif [ -f \"$FILE\" ]; then\n\"$FILE\"\nfi";
+		};
 		7152AC125F8F8AF668F74E4F /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -223,9 +235,12 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-cookoon-ios/Pods-cookoon-ios-resources.sh",
+				$PODS_CONFIGURATION_BUILD_DIR/HockeySDK/HockeySDKResources.bundle,
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -321,7 +336,7 @@
 			};
 			name = Debug;
 		};
-		0FCD254D1F6A681E002055D3 /* Release */ = {
+		0FCD254D1F6A681E002055D3 /* App Store */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -374,41 +389,131 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
-			name = Release;
+			name = "App Store";
 		};
 		0FCD254F1F6A681E002055D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EE7DE7789D5D87B255431091 /* Pods-cookoon-ios.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				APP_DISPLAY_NAME = "Debug Cookoon";
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Beta";
+				BASE_URL_ENDPOINT = "http://localhost:3000";
 				CODE_SIGN_ENTITLEMENTS = "cookoon-ios/cookoon-ios.entitlements";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D5P74M4HAK;
 				INFOPLIST_FILE = "cookoon-ios/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Cookoon.cookoon-ios";
+				PRODUCT_BUNDLE_IDENTIFIER = "Cookoon.cookoon-ios.debug";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
-		0FCD25501F6A681E002055D3 /* Release */ = {
+		0FCD25501F6A681E002055D3 /* App Store */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 15E785B59FCD38B9E10F6952 /* Pods-cookoon-ios.release.xcconfig */;
+			baseConfigurationReference = F46D48C53F1C94B1725874D9 /* Pods-cookoon-ios.app store.xcconfig */;
 			buildSettings = {
+				APP_DISPLAY_NAME = Cookoon;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				BASE_URL_ENDPOINT = "https://app.cookoon.fr";
 				CODE_SIGN_ENTITLEMENTS = "cookoon-ios/cookoon-ios.entitlements";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D5P74M4HAK;
 				INFOPLIST_FILE = "cookoon-ios/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Cookoon.cookoon-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
-			name = Release;
+			name = "App Store";
+		};
+		0FEC85C61FE97CB6008E0813 /* Beta */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "cookoon-ios/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_REFLECTION_METADATA_LEVEL = all;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Beta;
+		};
+		0FEC85C71FE97CB6008E0813 /* Beta */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A970A13873FF50C9C76BF017 /* Pods-cookoon-ios.beta.xcconfig */;
+			buildSettings = {
+				APP_DISPLAY_NAME = "Beta Cookoon";
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Beta";
+				BASE_URL_ENDPOINT = "https://cookoon-staging.herokuapp.com";
+				CODE_SIGN_ENTITLEMENTS = "cookoon-ios/cookoon-ios.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D5P74M4HAK;
+				INFOPLIST_FILE = "cookoon-ios/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Cookoon.cookoon-ios.beta";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Beta;
 		};
 /* End XCBuildConfiguration section */
 
@@ -417,19 +522,21 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0FCD254C1F6A681E002055D3 /* Debug */,
-				0FCD254D1F6A681E002055D3 /* Release */,
+				0FCD254D1F6A681E002055D3 /* App Store */,
+				0FEC85C61FE97CB6008E0813 /* Beta */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = "App Store";
 		};
 		0FCD254E1F6A681E002055D3 /* Build configuration list for PBXNativeTarget "cookoon-ios" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0FCD254F1F6A681E002055D3 /* Debug */,
-				0FCD25501F6A681E002055D3 /* Release */,
+				0FCD25501F6A681E002055D3 /* App Store */,
+				0FEC85C71FE97CB6008E0813 /* Beta */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = "App Store";
 		};
 /* End XCConfigurationList section */
 	};
