@@ -36,6 +36,10 @@ class WebView: WKWebView {
 
         translatesAutoresizingMaskIntoConstraints = false
         scrollView.decelerationRate = UIScrollViewDecelerationRateNormal
+        
+        if #available(iOS 11, *) {
+            scrollView.contentInsetAdjustmentBehavior = .never
+        }
     }
     
     required init?(coder: NSCoder) {
@@ -107,7 +111,9 @@ class WebView: WKWebView {
 
         if let data = try? JSONSerialization.data(withJSONObject: arguments, options: []),
             let string = NSString(data: data, encoding: String.Encoding.utf8.rawValue) as String? {
-                return String(string[string.characters.index(after: string.startIndex) ..< string.characters.index(before: string.endIndex)])
+                let startIndex = string.index(after: string.startIndex)
+                let endIndex = string.index(before: string.endIndex)
+                return String(string[startIndex..<endIndex])
         }
         
         return nil

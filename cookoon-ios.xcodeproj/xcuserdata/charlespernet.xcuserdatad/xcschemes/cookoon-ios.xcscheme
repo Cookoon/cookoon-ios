@@ -43,7 +43,7 @@
       </AdditionalOptions>
    </TestAction>
    <LaunchAction
-      buildConfiguration = "Debug"
+      buildConfiguration = "Beta"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       language = ""
@@ -58,7 +58,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0FCD253B1F6A681E002055D3"
-            BuildableName = "cookoon-ios.app"
+            BuildableName = "Cookoon.app"
             BlueprintName = "cookoon-ios"
             ReferencedContainer = "container:cookoon-ios.xcodeproj">
          </BuildableReference>
@@ -87,7 +87,8 @@
       buildConfiguration = "Debug">
    </AnalyzeAction>
    <ArchiveAction
-      buildConfiguration = "Release"
+      buildConfiguration = "Beta"
+      customArchiveName = "cookoon-ios[BETA]"
       revealArchiveInOrganizer = "YES">
    </ArchiveAction>
 </Scheme>

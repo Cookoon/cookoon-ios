@@ -17,13 +17,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var session = Session()
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        
         // Override point for customization after application launch.
         navigationController.isNavigationBarHidden = true
         window?.rootViewController = navigationController
         session.delegate = self
-//        visit(url: URL(string: "https://cookoon-staging.herokuapp.com")!)
-        visit(url: URL(string: "https://app.cookoon.fr")!)
-//        visit(url: URL(string: "http://localhost:3000")!)
+        let url = Bundle.main.object(forInfoDictionaryKey: "BASE_URL_ENDPOINT")
+        visit(url: URL(string: url as! String)!)
+        
         return true
     }
     
