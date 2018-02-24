@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		0F5FC1311F6AC40B007614A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F5FC1301F6AC40B007614A9 /* LaunchScreen.storyboard */; };
-		0FCA8E541FC470F100AE0810 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FCA8E531FC470F100AE0810 /* Default-568h@2x.png */; };
 		0FCD25401F6A681E002055D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCD253F1F6A681E002055D3 /* AppDelegate.swift */; };
 		0FCD25421F6A681E002055D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCD25411F6A681E002055D3 /* ViewController.swift */; };
 		0FCD25451F6A681E002055D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FCD25431F6A681E002055D3 /* Main.storyboard */; };
@@ -20,7 +19,6 @@
 /* Begin PBXFileReference section */
 		0F5FC1301F6AC40B007614A9 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0F9FE6431FBEE1E5003F8D2C /* cookoon-ios.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "cookoon-ios.entitlements"; sourceTree = "<group>"; };
-		0FCA8E531FC470F100AE0810 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		0FCD253C1F6A681E002055D3 /* Cookoon Debug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cookoon Debug.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FCD253F1F6A681E002055D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0FCD25411F6A681E002055D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,7 +47,6 @@
 		0FCD25331F6A681E002055D3 = {
 			isa = PBXGroup;
 			children = (
-				0FCA8E531FC470F100AE0810 /* Default-568h@2x.png */,
 				0FCD253E1F6A681E002055D3 /* cookoon-ios */,
 				0FCD253D1F6A681E002055D3 /* Products */,
 				CE76768AD4199FFD49AA9D85 /* Pods */,
@@ -169,7 +166,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				0FCD25471F6A681E002055D3 /* Assets.xcassets in Resources */,
-				0FCA8E541FC470F100AE0810 /* Default-568h@2x.png in Resources */,
 				0F5FC1311F6AC40B007614A9 /* LaunchScreen.storyboard in Resources */,
 				0FCD25451F6A681E002055D3 /* Main.storyboard in Resources */,
 			);
