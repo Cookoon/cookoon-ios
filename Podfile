@@ -6,5 +6,6 @@ target 'cookoon-ios' do
   use_frameworks!
 
   # Pods for cookoon-ios
+  pod 'AppCenter'
   pod 'Turbolinks', git: 'https://github.com/turbolinks/turbolinks-ios.git'
 end

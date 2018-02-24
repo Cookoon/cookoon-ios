@@ -8,21 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		19679E2E7B109A93FA95FDD44EED84E2 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDDB8272AF7DA52CED82F42852514AD3 /* WebKit.framework */; };
-		333469DA8A2926FDAF11F7B6ADF5C8E3 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60D5126E6B1F326B3515FC02CDEA232 /* Session.swift */; };
-		3C8716AE4BA3CE249988ECE12E12E533 /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFD5A3FAE242A1F92FD51DE6B101BB9 /* Action.swift */; };
-		4F5C3CC82B4830966F051A6DEB9620D6 /* VisitableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B0B8CF5C10D813F32702A105B3606A /* VisitableView.swift */; };
-		5762B406BD5313FCB1E4F70FE9B278B1 /* ScriptMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831BC24325654C3C21896D26AC38E537 /* ScriptMessage.swift */; };
-		579E89DC3ECF84CB2B3058064316797F /* Turbolinks-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C02E5E0F96A6CF413940D479943F3A34 /* Turbolinks-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		333469DA8A2926FDAF11F7B6ADF5C8E3 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2B3BE3C9250E22C01A6A0B119483C0 /* Session.swift */; };
+		3C8716AE4BA3CE249988ECE12E12E533 /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC00E201E01FCBB086993089318A67F /* Action.swift */; };
+		4F5C3CC82B4830966F051A6DEB9620D6 /* VisitableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A344F9514FDC3539C998C8795FC388 /* VisitableView.swift */; };
+		5762B406BD5313FCB1E4F70FE9B278B1 /* ScriptMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904F65393E47EFC1CF84457E9A5007DF /* ScriptMessage.swift */; };
+		579E89DC3ECF84CB2B3058064316797F /* Turbolinks-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C21A1E6E62A5840E0DC2CCB5B6205084 /* Turbolinks-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7458DE04249ED46411903CD472F1F0E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 596A5E7C40FB07FDAA78D426185FA95B /* Foundation.framework */; };
 		95503C1D7292FF0416AF02818900FB07 /* Pods-cookoon-ios-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E9A2AF93CB9135210E599143C68AE2 /* Pods-cookoon-ios-dummy.m */; };
-		9C7BD10BC2D0D88B70C6A6B3EBF6378A /* Turbolinks-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F5FB0242EBD2A71BCDA43AC9365CADFF /* Turbolinks-dummy.m */; };
-		A680E30CFEEB6C0DDDE7F258C350B99E /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777FB83280F5CB117DF5A45C46047A18 /* Error.swift */; };
-		AC1C2536679B81E896E77388613BCF14 /* Visitable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8D75A6BB7D33AE93EE8490558BDBAD /* Visitable.swift */; };
-		AD9D82B58C885928C9BC319DD458D560 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3230582930099BCF195FBF9D37D19305 /* WebView.swift */; };
-		BE8021309F76A870917AB4F7CEE9EFB2 /* VisitableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A359E20EB9CE17874163BF35AEDF6F32 /* VisitableViewController.swift */; };
+		9C7BD10BC2D0D88B70C6A6B3EBF6378A /* Turbolinks-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C157F8CA92BC19D51DC1FCCB253122DD /* Turbolinks-dummy.m */; };
+		A680E30CFEEB6C0DDDE7F258C350B99E /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2232E9840E19676C2EBA570526C33D61 /* Error.swift */; };
+		AC1C2536679B81E896E77388613BCF14 /* Visitable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB414A8A79F4264B4C4E0F40045B06B5 /* Visitable.swift */; };
+		AD9D82B58C885928C9BC319DD458D560 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E0C6381E2D7A351C551B80F9B65B59 /* WebView.swift */; };
+		BE8021309F76A870917AB4F7CEE9EFB2 /* VisitableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E21C9ED3AD4EC9F77737EE5EB810FDE /* VisitableViewController.swift */; };
 		C0194F63973AA99A1C2F18FB49675608 /* Pods-cookoon-ios-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D1B8A1B6B4BA6BF77286287B97664B08 /* Pods-cookoon-ios-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DCEC1AAD9D9A03893E25EA6C5183A4AA /* Visit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5080EE62127E017DF4DBE560921938D9 /* Visit.swift */; };
-		E0CFB8BF6872057586087D350567FB5C /* WebView.js in Resources */ = {isa = PBXBuildFile; fileRef = F73696591DF4A0121FE93882475CAC1F /* WebView.js */; };
+		DCEC1AAD9D9A03893E25EA6C5183A4AA /* Visit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637A97977099E79B5951989C6BF9FDC4 /* Visit.swift */; };
+		E0CFB8BF6872057586087D350567FB5C /* WebView.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B98BA83477E96EA845ACAC4CAE1DBB3 /* WebView.js */; };
 		F0889A0E216D168CB2FC600BCF0C26EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 596A5E7C40FB07FDAA78D426185FA95B /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,37 +38,40 @@
 
 /* Begin PBXFileReference section */
 		066C16774C1CADA80D974C6DD7F2CC78 /* Pods-cookoon-ios-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-cookoon-ios-acknowledgements.plist"; sourceTree = "<group>"; };
+		0D2B3BE3C9250E22C01A6A0B119483C0 /* Session.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Session.swift; path = Turbolinks/Session.swift; sourceTree = "<group>"; };
 		16639CCA2D530CB5A9A6915259B1CE68 /* Pods-cookoon-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-cookoon-ios.debug.xcconfig"; sourceTree = "<group>"; };
 		16F1953F735E4A6EBA3B19C7EC4CF72C /* Pods-cookoon-ios.staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-cookoon-ios.staging.xcconfig"; sourceTree = "<group>"; };
-		1CFD5A3FAE242A1F92FD51DE6B101BB9 /* Action.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Action.swift; path = Turbolinks/Action.swift; sourceTree = "<group>"; };
+		1B98BA83477E96EA845ACAC4CAE1DBB3 /* WebView.js */ = {isa = PBXFileReference; includeInIndex = 1; name = WebView.js; path = Turbolinks/WebView.js; sourceTree = "<group>"; };
+		2232E9840E19676C2EBA570526C33D61 /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Turbolinks/Error.swift; sourceTree = "<group>"; };
+		22A344F9514FDC3539C998C8795FC388 /* VisitableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VisitableView.swift; path = Turbolinks/VisitableView.swift; sourceTree = "<group>"; };
 		23E9A2AF93CB9135210E599143C68AE2 /* Pods-cookoon-ios-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-cookoon-ios-dummy.m"; sourceTree = "<group>"; };
-		3230582930099BCF195FBF9D37D19305 /* WebView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebView.swift; path = Turbolinks/WebView.swift; sourceTree = "<group>"; };
+		3E21C9ED3AD4EC9F77737EE5EB810FDE /* VisitableViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VisitableViewController.swift; path = Turbolinks/VisitableViewController.swift; sourceTree = "<group>"; };
 		4BFBB7D73FF27F22446D4509B0AE7348 /* Pods-cookoon-ios-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-cookoon-ios-resources.sh"; sourceTree = "<group>"; };
-		5080EE62127E017DF4DBE560921938D9 /* Visit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Visit.swift; path = Turbolinks/Visit.swift; sourceTree = "<group>"; };
+		4FC00E201E01FCBB086993089318A67F /* Action.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Action.swift; path = Turbolinks/Action.swift; sourceTree = "<group>"; };
 		58B07BF640CB418CBDA2F872BDC01CBB /* Pods_cookoon_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_cookoon_ios.framework; path = "Pods-cookoon-ios.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		596A5E7C40FB07FDAA78D426185FA95B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		62E248923F5FEC18F134027211C07256 /* Turbolinks-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Turbolinks-prefix.pch"; sourceTree = "<group>"; };
+		637A97977099E79B5951989C6BF9FDC4 /* Visit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Visit.swift; path = Turbolinks/Visit.swift; sourceTree = "<group>"; };
 		752713F198F9EFE9EB18247D4B23426E /* Pods-cookoon-ios.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-cookoon-ios.modulemap"; sourceTree = "<group>"; };
-		777FB83280F5CB117DF5A45C46047A18 /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Turbolinks/Error.swift; sourceTree = "<group>"; };
 		7D2E2E9D08698CF9F7908095519EE50F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		831BC24325654C3C21896D26AC38E537 /* ScriptMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScriptMessage.swift; path = Turbolinks/ScriptMessage.swift; sourceTree = "<group>"; };
-		8554823F2BB02CC0A5859B8EB40362C1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80E0C6381E2D7A351C551B80F9B65B59 /* WebView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebView.swift; path = Turbolinks/WebView.swift; sourceTree = "<group>"; };
+		848F2AEA224E8B887E8B1DDFC5DD6897 /* Turbolinks.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Turbolinks.modulemap; sourceTree = "<group>"; };
+		8A95754732145CDD83811CB86991BDEC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		904F65393E47EFC1CF84457E9A5007DF /* ScriptMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScriptMessage.swift; path = Turbolinks/ScriptMessage.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A359E20EB9CE17874163BF35AEDF6F32 /* VisitableViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VisitableViewController.swift; path = Turbolinks/VisitableViewController.swift; sourceTree = "<group>"; };
-		B60D5126E6B1F326B3515FC02CDEA232 /* Session.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Session.swift; path = Turbolinks/Session.swift; sourceTree = "<group>"; };
-		C02E5E0F96A6CF413940D479943F3A34 /* Turbolinks-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Turbolinks-umbrella.h"; sourceTree = "<group>"; };
-		C1B0B8CF5C10D813F32702A105B3606A /* VisitableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VisitableView.swift; path = Turbolinks/VisitableView.swift; sourceTree = "<group>"; };
+		AB3C7E237C4173D3C13C1B3D656DC0DB /* AppCenterAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppCenterAnalytics.framework; path = "AppCenter-SDK-Apple/iOS/AppCenterAnalytics.framework"; sourceTree = "<group>"; };
+		B43DAEE026559E410E98580D838F4DF2 /* Turbolinks-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Turbolinks-prefix.pch"; sourceTree = "<group>"; };
+		C157F8CA92BC19D51DC1FCCB253122DD /* Turbolinks-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Turbolinks-dummy.m"; sourceTree = "<group>"; };
+		C1774E23CC5803AAFD26C9155003E881 /* Turbolinks.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Turbolinks.xcconfig; sourceTree = "<group>"; };
 		C1E406A8EFCF5C373A47DFA51E02CD5E /* Pods-cookoon-ios-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-cookoon-ios-frameworks.sh"; sourceTree = "<group>"; };
 		C2007E70A635195CCEF21830089599C9 /* Pods-cookoon-ios-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-cookoon-ios-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C621EA5F26AE18B3B6063F6550AE50F2 /* Turbolinks.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Turbolinks.modulemap; sourceTree = "<group>"; };
+		C21A1E6E62A5840E0DC2CCB5B6205084 /* Turbolinks-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Turbolinks-umbrella.h"; sourceTree = "<group>"; };
 		D1B8A1B6B4BA6BF77286287B97664B08 /* Pods-cookoon-ios-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-cookoon-ios-umbrella.h"; sourceTree = "<group>"; };
 		D1B90C1C7D90839506EE2A3B9D9B820A /* Pods-cookoon-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-cookoon-ios.release.xcconfig"; sourceTree = "<group>"; };
-		D3639BCEC909011974182AB32B9EB76A /* Turbolinks.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Turbolinks.xcconfig; sourceTree = "<group>"; };
+		DE7D4CE85DE7E739DE931FCAAA04E7EE /* AppCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppCenter.framework; path = "AppCenter-SDK-Apple/iOS/AppCenter.framework"; sourceTree = "<group>"; };
 		E89B3C61C5F33AFBD2EC04794647D7AD /* Turbolinks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Turbolinks.framework; path = Turbolinks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA8D75A6BB7D33AE93EE8490558BDBAD /* Visitable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Visitable.swift; path = Turbolinks/Visitable.swift; sourceTree = "<group>"; };
 		EDDB8272AF7DA52CED82F42852514AD3 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
-		F5FB0242EBD2A71BCDA43AC9365CADFF /* Turbolinks-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Turbolinks-dummy.m"; sourceTree = "<group>"; };
-		F73696591DF4A0121FE93882475CAC1F /* WebView.js */ = {isa = PBXFileReference; includeInIndex = 1; name = WebView.js; path = Turbolinks/WebView.js; sourceTree = "<group>"; };
+		F7B150A74F0876DA04D9C191EB8C81D8 /* AppCenterCrashes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppCenterCrashes.framework; path = "AppCenter-SDK-Apple/iOS/AppCenterCrashes.framework"; sourceTree = "<group>"; };
+		FB414A8A79F4264B4C4E0F40045B06B5 /* Visitable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Visitable.swift; path = Turbolinks/Visitable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,23 +95,59 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		10D6476BCB7B18A7814F78B07B631572 /* Turbolinks */ = {
+		06836AAA1583C5E794BCC8FE6BB7267F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1CFD5A3FAE242A1F92FD51DE6B101BB9 /* Action.swift */,
-				777FB83280F5CB117DF5A45C46047A18 /* Error.swift */,
-				831BC24325654C3C21896D26AC38E537 /* ScriptMessage.swift */,
-				B60D5126E6B1F326B3515FC02CDEA232 /* Session.swift */,
-				5080EE62127E017DF4DBE560921938D9 /* Visit.swift */,
-				EA8D75A6BB7D33AE93EE8490558BDBAD /* Visitable.swift */,
-				C1B0B8CF5C10D813F32702A105B3606A /* VisitableView.swift */,
-				A359E20EB9CE17874163BF35AEDF6F32 /* VisitableViewController.swift */,
-				3230582930099BCF195FBF9D37D19305 /* WebView.swift */,
-				68A5CF8F3DEB5C912169F31DEC7A8B09 /* Resources */,
-				8A4E98CBBD1B92F83A634C8375C1C14D /* Support Files */,
+				9DF4FE955CFEF96D3A665A993DD7BD10 /* AppCenter */,
+				8F7F5AEB218194AC4F7A09F0F2001669 /* Turbolinks */,
 			);
-			name = Turbolinks;
-			path = Turbolinks;
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		0BEF028F1C5A7442114378F02F770D77 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				0FC752AE5811C1FFB72C18CA3AB6FC65 /* Frameworks */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		0FC752AE5811C1FFB72C18CA3AB6FC65 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE7D4CE85DE7E739DE931FCAAA04E7EE /* AppCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2B511C3C0F03E4F6EACBAE9A59ED8776 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB3C7E237C4173D3C13C1B3D656DC0DB /* AppCenterAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3BDD7D2D41AF80AD6621625BD7D70B6E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A95754732145CDD83811CB86991BDEC /* Info.plist */,
+				848F2AEA224E8B887E8B1DDFC5DD6897 /* Turbolinks.modulemap */,
+				C1774E23CC5803AAFD26C9155003E881 /* Turbolinks.xcconfig */,
+				C157F8CA92BC19D51DC1FCCB253122DD /* Turbolinks-dummy.m */,
+				B43DAEE026559E410E98580D838F4DF2 /* Turbolinks-prefix.pch */,
+				C21A1E6E62A5840E0DC2CCB5B6205084 /* Turbolinks-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Turbolinks";
+			sourceTree = "<group>";
+		};
+		3ED20F74F70D30D868F117FC097EBA71 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				2B511C3C0F03E4F6EACBAE9A59ED8776 /* Frameworks */,
+			);
+			name = Analytics;
 			sourceTree = "<group>";
 		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
@@ -138,14 +177,6 @@
 			path = "Target Support Files/Pods-cookoon-ios";
 			sourceTree = "<group>";
 		};
-		68A5CF8F3DEB5C912169F31DEC7A8B09 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				F73696591DF4A0121FE93882475CAC1F /* WebView.js */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
 		729C424472F1E074A2EF30A6BC5F7C43 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -155,37 +186,53 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		72E6AE1933166C0F56465FFCAF928DC2 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				10D6476BCB7B18A7814F78B07B631572 /* Turbolinks */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				72E6AE1933166C0F56465FFCAF928DC2 /* Pods */,
+				06836AAA1583C5E794BCC8FE6BB7267F /* Pods */,
 				B259223B6C6B77092799E911EA0927E5 /* Products */,
 				BAAA19EDF3B0CE18BB2F1DAA56356752 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8A4E98CBBD1B92F83A634C8375C1C14D /* Support Files */ = {
+		7FA70F68757690565D9204601FF7BE97 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8554823F2BB02CC0A5859B8EB40362C1 /* Info.plist */,
-				C621EA5F26AE18B3B6063F6550AE50F2 /* Turbolinks.modulemap */,
-				D3639BCEC909011974182AB32B9EB76A /* Turbolinks.xcconfig */,
-				F5FB0242EBD2A71BCDA43AC9365CADFF /* Turbolinks-dummy.m */,
-				62E248923F5FEC18F134027211C07256 /* Turbolinks-prefix.pch */,
-				C02E5E0F96A6CF413940D479943F3A34 /* Turbolinks-umbrella.h */,
+				F7B150A74F0876DA04D9C191EB8C81D8 /* AppCenterCrashes.framework */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/Turbolinks";
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8F7F5AEB218194AC4F7A09F0F2001669 /* Turbolinks */ = {
+			isa = PBXGroup;
+			children = (
+				4FC00E201E01FCBB086993089318A67F /* Action.swift */,
+				2232E9840E19676C2EBA570526C33D61 /* Error.swift */,
+				904F65393E47EFC1CF84457E9A5007DF /* ScriptMessage.swift */,
+				0D2B3BE3C9250E22C01A6A0B119483C0 /* Session.swift */,
+				637A97977099E79B5951989C6BF9FDC4 /* Visit.swift */,
+				FB414A8A79F4264B4C4E0F40045B06B5 /* Visitable.swift */,
+				22A344F9514FDC3539C998C8795FC388 /* VisitableView.swift */,
+				3E21C9ED3AD4EC9F77737EE5EB810FDE /* VisitableViewController.swift */,
+				80E0C6381E2D7A351C551B80F9B65B59 /* WebView.swift */,
+				FC0EC8635235AF10210740079698EB1E /* Resources */,
+				3BDD7D2D41AF80AD6621625BD7D70B6E /* Support Files */,
+			);
+			name = Turbolinks;
+			path = Turbolinks;
+			sourceTree = "<group>";
+		};
+		9DF4FE955CFEF96D3A665A993DD7BD10 /* AppCenter */ = {
+			isa = PBXGroup;
+			children = (
+				3ED20F74F70D30D868F117FC097EBA71 /* Analytics */,
+				0BEF028F1C5A7442114378F02F770D77 /* Core */,
+				F63A5B5C17B96A977EB35F3C1F996106 /* Crashes */,
+			);
+			name = AppCenter;
+			path = AppCenter;
 			sourceTree = "<group>";
 		};
 		B259223B6C6B77092799E911EA0927E5 /* Products */ = {
@@ -203,6 +250,22 @@
 				443FC8774845AA70892B38872F4D4B2B /* Pods-cookoon-ios */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F63A5B5C17B96A977EB35F3C1F996106 /* Crashes */ = {
+			isa = PBXGroup;
+			children = (
+				7FA70F68757690565D9204601FF7BE97 /* Frameworks */,
+			);
+			name = Crashes;
+			sourceTree = "<group>";
+		};
+		FC0EC8635235AF10210740079698EB1E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1B98BA83477E96EA845ACAC4CAE1DBB3 /* WebView.js */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -341,7 +404,7 @@
 /* Begin XCBuildConfiguration section */
 		195FC5230700D3EED1D35FE9AE6CE919 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D3639BCEC909011974182AB32B9EB76A /* Turbolinks.xcconfig */;
+			baseConfigurationReference = C1774E23CC5803AAFD26C9155003E881 /* Turbolinks.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -466,7 +529,7 @@
 		};
 		94E3479832192DF64CA9B551E060F0AA /* Staging */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D3639BCEC909011974182AB32B9EB76A /* Turbolinks.xcconfig */;
+			baseConfigurationReference = C1774E23CC5803AAFD26C9155003E881 /* Turbolinks.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -626,7 +689,7 @@
 		};
 		D0AE94A27BC3F7518013FEAED971E8F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D3639BCEC909011974182AB32B9EB76A /* Turbolinks.xcconfig */;
+			baseConfigurationReference = C1774E23CC5803AAFD26C9155003E881 /* Turbolinks.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
