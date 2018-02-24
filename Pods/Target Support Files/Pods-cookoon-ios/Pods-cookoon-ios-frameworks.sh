@@ -136,10 +136,10 @@ strip_invalid_archs() {
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Turbolinks/Turbolinks.framework"
 fi
-if [[ "$CONFIGURATION" == "App Store" ]]; then
+if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Turbolinks/Turbolinks.framework"
 fi
-if [[ "$CONFIGURATION" == "Beta" ]]; then
+if [[ "$CONFIGURATION" == "Staging" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Turbolinks/Turbolinks.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
