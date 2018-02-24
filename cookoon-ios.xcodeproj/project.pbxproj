@@ -21,7 +21,7 @@
 		0F5FC1301F6AC40B007614A9 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0F9FE6431FBEE1E5003F8D2C /* cookoon-ios.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "cookoon-ios.entitlements"; sourceTree = "<group>"; };
 		0FCA8E531FC470F100AE0810 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		0FCD253C1F6A681E002055D3 /* cookoon-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "cookoon-ios.app"; path = CookoonTEST.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FCD253C1F6A681E002055D3 /* Cookoon Debug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cookoon Debug.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FCD253F1F6A681E002055D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0FCD25411F6A681E002055D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0FCD25441F6A681E002055D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -60,7 +60,7 @@
 		0FCD253D1F6A681E002055D3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0FCD253C1F6A681E002055D3 /* cookoon-ios.app */,
+				0FCD253C1F6A681E002055D3 /* Cookoon Debug.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -119,7 +119,7 @@
 			);
 			name = "cookoon-ios";
 			productName = "coookoon-ios";
-			productReference = 0FCD253C1F6A681E002055D3 /* cookoon-ios.app */;
+			productReference = 0FCD253C1F6A681E002055D3 /* Cookoon Debug.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -234,7 +234,7 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-cookoon-ios/Pods-cookoon-ios-resources.sh",
-				"$PODS_CONFIGURATION_BUILD_DIR/HockeySDK/HockeySDKResources.bundle",
+				$PODS_CONFIGURATION_BUILD_DIR/HockeySDK/HockeySDKResources.bundle,
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
@@ -321,7 +321,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = "cookoon-ios/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PROVISIONING_PROFILE = "";
@@ -377,7 +377,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = "cookoon-ios/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -393,9 +393,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EE7DE7789D5D87B255431091 /* Pods-cookoon-ios.debug.xcconfig */;
 			buildSettings = {
-				APP_DISPLAY_NAME = "Debug Cookoon";
-				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Beta";
-				BASE_URL_ENDPOINT = "http://localhost:3000";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				BASE_URL = "http://localhost:3000";
 				CODE_SIGN_ENTITLEMENTS = "cookoon-ios/cookoon-ios.entitlements";
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -403,11 +402,11 @@
 				CURRENT_PROJECT_VERSION = "";
 				DEVELOPMENT_TEAM = D5P74M4HAK;
 				INFOPLIST_FILE = "cookoon-ios/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Cookoon.cookoon-ios.beta";
+				PRODUCT_BUNDLE_IDENTIFIER = "Cookoon.cookoon-ios.debug";
 				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME:c99extidentifier)";
-				PRODUCT_NAME = CookoonTEST;
+				PRODUCT_NAME = "Cookoon Debug";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -418,9 +417,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 15E785B59FCD38B9E10F6952 /* Pods-cookoon-ios.release.xcconfig */;
 			buildSettings = {
-				APP_DISPLAY_NAME = Cookoon;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				BASE_URL_ENDPOINT = "https://app.cookoon.fr";
+				BASE_URL = "https://app.cookoon.fr";
 				CODE_SIGN_ENTITLEMENTS = "cookoon-ios/cookoon-ios.entitlements";
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -428,7 +426,7 @@
 				CURRENT_PROJECT_VERSION = "";
 				DEVELOPMENT_TEAM = D5P74M4HAK;
 				INFOPLIST_FILE = "cookoon-ios/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Cookoon.cookoon-ios";
 				PRODUCT_NAME = Cookoon;
@@ -481,7 +479,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = "cookoon-ios/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -497,21 +495,20 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 880BAE0FFE195C0A85CD25ED /* Pods-cookoon-ios.staging.xcconfig */;
 			buildSettings = {
-				APP_DISPLAY_NAME = "Beta Cookoon";
-				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Beta";
-				BASE_URL_ENDPOINT = "https://cookoon-staging.herokuapp.com";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconStaging;
+				BASE_URL = "https://cookoon-staging.herokuapp.com";
 				CODE_SIGN_ENTITLEMENTS = "cookoon-ios/cookoon-ios.entitlements";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = "";
 				DEVELOPMENT_TEAM = D5P74M4HAK;
 				INFOPLIST_FILE = "cookoon-ios/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Cookoon.cookoon-ios.beta";
+				PRODUCT_BUNDLE_IDENTIFIER = "Cookoon.cookoon-ios.staging";
 				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME:c99extidentifier)";
-				PRODUCT_NAME = CookoonTEST;
+				PRODUCT_NAME = "Cookoon Staging";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;

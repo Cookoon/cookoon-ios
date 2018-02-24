@@ -22,7 +22,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         navigationController.isNavigationBarHidden = true
         window?.rootViewController = navigationController
         session.delegate = self
-        let url = Bundle.main.object(forInfoDictionaryKey: "BASE_URL_ENDPOINT")
+        let url = Bundle.main.object(forInfoDictionaryKey: "BASE_URL")
         visit(url: URL(string: url as! String)!)
         
         return true
