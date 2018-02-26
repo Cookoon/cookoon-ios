@@ -391,6 +391,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EE7DE7789D5D87B255431091 /* Pods-cookoon-ios.debug.xcconfig */;
 			buildSettings = {
+				APP_CENTER_SECRET = "d89186fe-4df8-4c50-b0a9-a172035beac0";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				BASE_URL = "http://localhost:3000";
 				CODE_SIGN_ENTITLEMENTS = "cookoon-ios/cookoon-ios.entitlements";
@@ -413,6 +414,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 15E785B59FCD38B9E10F6952 /* Pods-cookoon-ios.release.xcconfig */;
 			buildSettings = {
+				APP_CENTER_SECRET = "86d09916-35d5-4336-bd1f-88c2811bae00";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				BASE_URL = "https://app.cookoon.fr";
 				CODE_SIGN_ENTITLEMENTS = "cookoon-ios/cookoon-ios.entitlements";
@@ -491,6 +493,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 880BAE0FFE195C0A85CD25ED /* Pods-cookoon-ios.staging.xcconfig */;
 			buildSettings = {
+				APP_CENTER_SECRET = "d89186fe-4df8-4c50-b0a9-a172035beac0";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconStaging;
 				BASE_URL = "https://cookoon-staging.herokuapp.com";
 				CODE_SIGN_ENTITLEMENTS = "cookoon-ios/cookoon-ios.entitlements";

@@ -21,7 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var session = Session()
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        MSAppCenter.start("d89186fe-4df8-4c50-b0a9-a172035beac0", withServices:[
+        MSAppCenter.start(Bundle.main.object(forInfoDictionaryKey: "APP_CENTER_SECRET") as! String, withServices:[
             MSAnalytics.self,
             MSCrashes.self
             ])
