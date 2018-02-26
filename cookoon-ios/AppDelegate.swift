@@ -9,25 +9,33 @@
 import UIKit
 import Turbolinks
 
+import AppCenter
+import AppCenterAnalytics
+import AppCenterCrashes
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-    
+
     var window: UIWindow?
     var navigationController = UINavigationController()
     var session = Session()
-    
+
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        
+        MSAppCenter.start(Bundle.main.object(forInfoDictionaryKey: "APP_CENTER_SECRET") as! String, withServices:[
+            MSAnalytics.self,
+            MSCrashes.self
+            ])
+
         // Override point for customization after application launch.
         navigationController.isNavigationBarHidden = true
         window?.rootViewController = navigationController
         session.delegate = self
-        let url = Bundle.main.object(forInfoDictionaryKey: "BASE_URL_ENDPOINT")
+        let url = Bundle.main.object(forInfoDictionaryKey: "BASE_URL")
         visit(url: URL(string: url as! String)!)
-        
+
         return true
     }
-    
+
     func visit(url: URL) {
         let viewController = VisitableViewController(url: url)
         navigationController.pushViewController(viewController, animated: true)
@@ -55,7 +63,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
-    
+
     func application(_ application: UIApplication, continue userActivity: NSUserActivity,
                      restorationHandler: @escaping ([Any]?) -> Void) -> Bool {
         if userActivity.activityType == NSUserActivityTypeBrowsingWeb {
@@ -71,10 +79,8 @@ extension AppDelegate: SessionDelegate {
     func session(_ session: Session, didProposeVisitToURL URL: URL, withAction action: Action) {
         visit(url: URL)
     }
-    
+
     func session(_ session: Session, didFailRequestForVisitable visitable: Visitable, withError error: NSError) {
         //        TODO:
     }
 }
-
-
