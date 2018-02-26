@@ -131,6 +131,7 @@
 				TargetAttributes = {
 					0FCD253B1F6A681E002055D3 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = D5P74M4HAK;
 						LastSwiftMigration = 0910;
 						ProvisioningStyle = Manual;
 						SystemCapabilities = {
@@ -394,8 +395,6 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				BASE_URL = "http://localhost:3000";
 				CODE_SIGN_ENTITLEMENTS = "cookoon-ios/cookoon-ios.entitlements";
-				CODE_SIGN_IDENTITY = "iPhone Developer: Charles Pernet (U2QT6DHKQY)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Charles Pernet (U2QT6DHKQY)";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = "";
 				DEVELOPMENT_TEAM = "";
@@ -403,6 +402,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Cookoon.cookoon-ios.debug";
+				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -417,8 +417,6 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				BASE_URL = "https://app.cookoon.fr";
 				CODE_SIGN_ENTITLEMENTS = "cookoon-ios/cookoon-ios.entitlements";
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Receptions Nouvelles (D5P74M4HAK)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Receptions Nouvelles (D5P74M4HAK)";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = "";
 				DEVELOPMENT_TEAM = "";
@@ -496,16 +494,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconStaging;
 				BASE_URL = "https://cookoon-staging.herokuapp.com";
 				CODE_SIGN_ENTITLEMENTS = "cookoon-ios/cookoon-ios.entitlements";
-				CODE_SIGN_IDENTITY = "iPhone Developer: Charles Pernet (U2QT6DHKQY)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Charles Pernet (U2QT6DHKQY)";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = "";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = D5P74M4HAK;
 				INFOPLIST_FILE = "cookoon-ios/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Cookoon.cookoon-ios.staging";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "f6c7687a-5960-4315-81b5-a1ffd4ad6886";
+				PROVISIONING_PROFILE_SPECIFIER = "Cookoon Development Staging";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
