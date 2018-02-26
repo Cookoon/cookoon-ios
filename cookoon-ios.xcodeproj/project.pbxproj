@@ -131,9 +131,8 @@
 				TargetAttributes = {
 					0FCD253B1F6A681E002055D3 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = D5P74M4HAK;
 						LastSwiftMigration = 0910;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 						SystemCapabilities = {
 							com.apple.SafariKeychain = {
 								enabled = 1;
@@ -396,10 +395,10 @@
 				BASE_URL = "http://localhost:3000";
 				CODE_SIGN_ENTITLEMENTS = "cookoon-ios/cookoon-ios.entitlements";
 				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = "";
-				DEVELOPMENT_TEAM = D5P74M4HAK;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "cookoon-ios/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -419,10 +418,10 @@
 				BASE_URL = "https://app.cookoon.fr";
 				CODE_SIGN_ENTITLEMENTS = "cookoon-ios/cookoon-ios.entitlements";
 				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = "";
-				DEVELOPMENT_TEAM = D5P74M4HAK;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "cookoon-ios/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -498,10 +497,10 @@
 				BASE_URL = "https://cookoon-staging.herokuapp.com";
 				CODE_SIGN_ENTITLEMENTS = "cookoon-ios/cookoon-ios.entitlements";
 				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = "";
-				DEVELOPMENT_TEAM = D5P74M4HAK;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "cookoon-ios/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
