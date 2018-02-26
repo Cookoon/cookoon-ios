@@ -395,7 +395,7 @@
 				BASE_URL = "http://localhost:3000";
 				CODE_SIGN_ENTITLEMENTS = "cookoon-ios/cookoon-ios.entitlements";
 				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Charles Pernet (U2QT6DHKQY)";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = "";
 				DEVELOPMENT_TEAM = "";
@@ -418,7 +418,7 @@
 				BASE_URL = "https://app.cookoon.fr";
 				CODE_SIGN_ENTITLEMENTS = "cookoon-ios/cookoon-ios.entitlements";
 				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Receptions Nouvelles (D5P74M4HAK)";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = "";
 				DEVELOPMENT_TEAM = "";
@@ -497,7 +497,7 @@
 				BASE_URL = "https://cookoon-staging.herokuapp.com";
 				CODE_SIGN_ENTITLEMENTS = "cookoon-ios/cookoon-ios.entitlements";
 				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Charles Pernet (U2QT6DHKQY)";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = "";
 				DEVELOPMENT_TEAM = "";
