@@ -505,7 +505,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Cookoon.cookoon-ios.staging";
-				PROVISIONING_PROFILE = "3d7cb41c-6212-4953-af34-07240391ee03";
+				PROVISIONING_PROFILE = "f774e96a-4a1d-4355-8dd1-b7574ec7cfe5";
 				PROVISIONING_PROFILE_SPECIFIER = "Cookoon Ad Hoc Staging";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
