@@ -13,6 +13,8 @@ import AppCenter
 import AppCenterAnalytics
 import AppCenterCrashes
 
+import Branch
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -30,8 +32,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         navigationController.isNavigationBarHidden = true
         window?.rootViewController = navigationController
         session.delegate = self
-        let url = Bundle.main.object(forInfoDictionaryKey: "BASE_URL")
-        visit(url: URL(string: url as! String)!)
+
+        Branch.getInstance().initSession(launchOptions: launchOptions, andRegisterDeepLinkHandler: {params, error in
+            let url: String
+
+            if error == nil && params!["+clicked_branch_link"] != nil && params!["$deeplink_path"] != nil {
+                url = params!["$deeplink_path"] as! String
+            } else if error == nil && params!["+clicked_branch_link"] != nil && params!["+non_branch_link"] != nil {
+                url = params!["+non_branch_link"] as! String
+            } else {
+                url = Bundle.main.object(forInfoDictionaryKey: "BASE_URL") as! String
+            }
+
+            self.visit(url: URL(string: url)!)
+        })
 
         return true
     }
@@ -66,13 +80,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, continue userActivity: NSUserActivity,
                      restorationHandler: @escaping ([Any]?) -> Void) -> Bool {
-        if userActivity.activityType == NSUserActivityTypeBrowsingWeb {
-            let url = userActivity.webpageURL!
-            visit(url: url);
-        }
+        Branch.getInstance().continue(userActivity)
         return true
     }
-
 }
 
 extension AppDelegate: SessionDelegate {

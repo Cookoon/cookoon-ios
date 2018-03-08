@@ -7,5 +7,6 @@ target 'cookoon-ios' do
 
   # Pods for cookoon-ios
   pod 'AppCenter'
+  pod 'Branch'
   pod 'Turbolinks', git: 'https://github.com/turbolinks/turbolinks-ios.git'
 end
