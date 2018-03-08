@@ -27,15 +27,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             MSAnalytics.self,
             MSCrashes.self
             ])
-        
+
         // Override point for customization after application launch.
         navigationController.isNavigationBarHidden = true
         window?.rootViewController = navigationController
         session.delegate = self
-        
+
         Branch.getInstance().initSession(launchOptions: launchOptions, andRegisterDeepLinkHandler: {params, error in
             let url: String
-            
+
             if error == nil && params!["+clicked_branch_link"] != nil && params!["$deeplink_path"] != nil {
                 url = params!["$deeplink_path"] as! String
             } else if error == nil && params!["+clicked_branch_link"] != nil && params!["+non_branch_link"] != nil {
@@ -77,7 +77,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
-    
+
     func application(_ application: UIApplication, continue userActivity: NSUserActivity,
                      restorationHandler: @escaping ([Any]?) -> Void) -> Bool {
         Branch.getInstance().continue(userActivity)
