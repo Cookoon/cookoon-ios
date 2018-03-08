@@ -2,6 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>branch_key</key>
+	<string>key_live_hmxKEByFt9UD9dlLbCXxIkdiDBiWvbsa</string>
+	<key>branch_app_domain</key>
+	<string>cookoon.app.link</string>
 	<key>APP_CENTER_SECRET</key>
 	<string>$(APP_CENTER_SECRET)</string>
 	<key>BASE_URL</key>
