@@ -69,8 +69,8 @@
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
 	<key>branch_app_domain</key>
-	<string>cookoon.app.link</string>
+	<string>$(BRANCH_APP_DOMAIN)</string>
 	<key>branch_key</key>
-	<string>key_live_hmxKEByFt9UD9dlLbCXxIkdiDBiWvbsa</string>
+	<string>$(BRANCH_KEY)</string>
 </dict>
 </plist>
