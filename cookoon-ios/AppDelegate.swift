@@ -27,26 +27,29 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             MSAnalytics.self,
             MSCrashes.self
             ])
-
+        
+        Branch.getInstance().initSession(launchOptions: launchOptions, andRegisterDeepLinkHandler: {params, error in
+            let url: String
+            
+            if error == nil && params!["+clicked_branch_link"] != nil {
+                if params!["$deeplink_path"] != nil {
+                    url = params!["$deeplink_path"] as! String
+                    self.visit(url: URL(string: url)!)
+                } else if params!["+non_branch_link"] != nil {
+                    url = params!["+non_branch_link"] as! String
+                    self.visit(url: URL(string: url)!)
+                }
+            }
+        })
+        
         // Override point for customization after application launch.
         navigationController.isNavigationBarHidden = true
         window?.rootViewController = navigationController
         session.delegate = self
-
-        Branch.getInstance().initSession(launchOptions: launchOptions, andRegisterDeepLinkHandler: {params, error in
-            let url: String
-
-            if error == nil && params!["+clicked_branch_link"] != nil && params!["$deeplink_path"] != nil {
-                url = params!["$deeplink_path"] as! String
-            } else if error == nil && params!["+clicked_branch_link"] != nil && params!["+non_branch_link"] != nil {
-                url = params!["+non_branch_link"] as! String
-            } else {
-                url = Bundle.main.object(forInfoDictionaryKey: "BASE_URL") as! String
-            }
-
-            self.visit(url: URL(string: url)!)
-        })
-
+       
+        let url: String = Bundle.main.object(forInfoDictionaryKey: "BASE_URL") as! String
+        self.visit(url: URL(string: url)!)
+        
         return true
     }
 
