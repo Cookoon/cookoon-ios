@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import WebKit
 import Turbolinks
 
 import AppCenter
@@ -20,7 +21,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
     var navigationController = UINavigationController()
-    var session = Session()
+
+    fileprivate lazy var webViewConfiguration: WKWebViewConfiguration = {
+        let configuration = WKWebViewConfiguration()
+        configuration.applicationNameForUserAgent = "Cookoon Inside iOS"
+        return configuration
+    }()
+    
+    fileprivate lazy var session: Session = {
+        let session = Session(webViewConfiguration: self.webViewConfiguration)
+        session.delegate = self
+        return session
+    }()
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         MSAppCenter.start(Bundle.main.object(forInfoDictionaryKey: "APP_CENTER_SECRET") as! String, withServices:[
