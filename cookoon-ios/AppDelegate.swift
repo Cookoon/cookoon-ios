@@ -45,8 +45,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             
             if error == nil && params!["+clicked_branch_link"] != nil {
                 if params!["$deeplink_path"] != nil {
+                    let baseUrl: String = Bundle.main.object(forInfoDictionaryKey: "BASE_URL") as! String
                     url = params!["$deeplink_path"] as! String
-                    self.visit(url: URL(string: url)!)
+                    
+                    if url.hasPrefix(baseUrl) {
+                        self.visit(url: URL(string: url)!)
+                    }
                 } else if params!["+non_branch_link"] != nil {
                     url = params!["+non_branch_link"] as! String
                     self.visit(url: URL(string: url)!)
